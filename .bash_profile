@@ -1,3 +1,11 @@
+# Common folder aliases
+alias cs120='cd ~/Google\ Drive/School/ACurrent\ Classes/CS120'
+alias cs228='cd ~/Google\ Drive/School/ACurrent\ Classes/CS228'
+alias cs201='cd ~/Google\ Drive/School/ACurrent\ Classes/CS201'
+
+# ssh aliases
+alias kaladin='ssh sswanke1@kaladin.cems.uvm.edu'
+
 PATH="~/Library/Android/sdk/tools:~/Library/Android/sdk/platform-tools:${PATH}"
 export PATH
 

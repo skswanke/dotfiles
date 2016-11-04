@@ -55,4 +55,4 @@ complete -F _complete_ssh_hosts scp
 # Prompt
 . ~/git-prompt.sh
 export GIT_PS1_SHOWDIRTYSTATE=1
-export PS1='\033[00;31m\u\033[00m in \033[01;36m\W\033[00m\033[00;32m$(__git_ps1 " (%s)")\033[00m$ '
+export PS1='\[\033[00;31m\]\u\[\033[00m\] in \[\033[01;36m\]\W\[\033[00m\]\[\033[00;32m\]$(__git_ps1 " (%s)")\[\033[00m\]$ '

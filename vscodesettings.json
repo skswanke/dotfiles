@@ -1,0 +1,32 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Columns at which to show vertical rulers
+    "editor.rulers": [120],
+
+    // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+    "editor.wordWrap": false,
+
+    // Controls whether the editor should render indent guides
+    "editor.renderIndentGuides": true,
+    
+    // Controls the font size in pixels.
+    "editor.fontSize": 13,
+    
+    // Controls the font family.
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+
+    // Controls auto save of dirty files. Accepted values:  "off", "afterDelay", "onFocusChange" (editor loses focus), "onWindowChange" (window loses focus). If set to "afterDelay", you can configure the delay in "files.autoSaveDelay".
+    "files.autoSave": "afterDelay",
+
+    // Controls the delay in ms after which a dirty file is saved automatically. Only applies when 'files.autoSave' is set to 'afterDelay'
+    "files.autoSaveDelay": 300,
+  
+
+    // Run Lint tool on save.
+    "go.lintOnSave": false,
+    "workbench.iconTheme": "vscode-great-icons",
+    "window.zoomLevel": 1,
+    "git.confirmSync": false,
+    "vim.disableAnnoyingNeovimMessage": true,
+    "workbench.colorTheme": "One Dark Pro"
+}

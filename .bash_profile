@@ -1,3 +1,20 @@
+alias psql-boot='postgres -D psql/data/ &'
+
+# Git
+alias gp='git push'
+alias gc='git commit'
+alias gcm='git commit -am'
+alias ga='git add .'
+alias gs='git stash'
+alias gsp='git stash pop'
+
+# npm
+alias nt='npm run test'
+alias nmi='npm run migration:run:local'
+alias nmir='npm run migration:rollback:local'
+alias nmv='npm run migration:validate'
+alias nd='npm run dev'
+
 # Setting PATH for Python 3.5
 # The orginal version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
